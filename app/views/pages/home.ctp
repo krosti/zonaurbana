@@ -6,7 +6,7 @@
 $(document).ready(function() {
 	$('.seleccion').css('margin-left','0px');
 	$('.item_menu').mouseleave(function () {
-	      $('.seleccion').animate({
+	      $('.seleccion').stop().animate({
 		    marginLeft: "0px",
 		  },250);
 	});

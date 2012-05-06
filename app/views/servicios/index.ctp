@@ -201,7 +201,7 @@
 	$('.seleccion2').css('margin-left','7px');
 
 	$('.item_menu2').mouseleave(function () {
-	      $('.seleccion2').animate({
+	      $('.seleccion2').stop().animate({
 		    marginLeft: "7px",
 		  },250);
 	});

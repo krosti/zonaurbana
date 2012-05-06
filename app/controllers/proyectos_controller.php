@@ -5,9 +5,9 @@ class ProyectosController extends AppController {
 	var $helpers = array('Javascript','Html','Form');
 
 	function index(){
-		$this->set('pcontruccion', $this->Proyecto->find('all', array('order'=>array('Proyecto.id'=>'ASC'),'conditions'=>array('Proyecto.categoria_id'=>'1'))));		
-		$this->set('pentregados', $this->Proyecto->find('all', array('order'=>array('Proyecto.id'=>'ASC'),'conditions'=>array('Proyecto.categoria_id'=>'2'))));		
-		$this->set('prealizar', $this->Proyecto->find('all', array('order'=>array('Proyecto.id'=>'ASC'),'conditions'=>array('Proyecto.categoria_id'=>'3'))));		
+		$this->set('pcontruccion', $this->Proyecto->find('all', array('order'=>array('Proyecto.id'=>'ASC'),'conditions'=>array('Proyecto.categoria_id'=>'1'))));
+		$this->set('pentregados', $this->Proyecto->find('all', array('order'=>array('Proyecto.id'=>'ASC'),'conditions'=>array('Proyecto.categoria_id'=>'2'))));
+		$this->set('prealizar', $this->Proyecto->find('all', array('order'=>array('Proyecto.id'=>'ASC'),'conditions'=>array('Proyecto.categoria_id'=>'3'))));
 	}
 
 	function view($id){

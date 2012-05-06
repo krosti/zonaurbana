@@ -1,20 +1,27 @@
-<?php
-	echo $html->meta('icon');
-	echo $this->Html->css(array('styles'));
-	echo $javascript->link(array('jquery.1.6','menu','lemmon-slider'));
-?>
-<div id="header">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>	
+	<title>	Zona Urbana SA </title>
+	<?php
+		echo $html->meta('icon');
+		echo $this->Html->css(array('styles'));
+		echo $javascript->link(array('jquery.1.6','menu','lemmon-slider'));
+		header("Content-Type: text/html; charset=utf-8");
+	?>
+</head>
+<body>
+<div class="header">
 		<div id="img_header">
 			<?php echo $html->image('home/header.png');?>
 		</div>
 </div>
-<div class="menu">
-		<div class="centro_menu">
+<div id="menu">
+		<div id="centro_menu">
 			<div class="seleccion"></div>
 			<div class="item_menu" id="mempresa"><?php echo $html->link('EMPRESA',array('action'=>'../'),array('escape' => false));?></div>
 			<div class="item_menu" id="mproyectos"><?php echo $html->link('PROYECTOS',array('action'=>'../proyectos/index'),array('escape' => false));?></div>
 			<div class="item_menu" id="mservicios"><?php echo $html->link('SERVICIOS',array('action'=>'../servicios'),array('escape' => false));?></div>
-			<div class="item_menu" id="mcontacto"><?php echo $html->link('CONTACTO',array('action'=>'../contacto/index'),array('escape' => false));?></div>
+			<div class="item_menu" id="mcontacto"><?php echo $html->link('CONTACTO',array('action'=>'../contactos/index'),array('escape' => false));?></div>
 		</div>
 		<div id="verde">
 		</div>
@@ -48,3 +55,5 @@
 		</div>
 	</div>
 </div>
+</body>
+</html>	

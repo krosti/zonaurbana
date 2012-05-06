@@ -22,12 +22,12 @@ body {
 		margin:0px auto;
 		height:180px;
 	}
-.menu{
+#menu{
 	background:#796f61;
 	width:100%;
 	float:left;
 }
-.menu #verde{
+#menu #verde{
 	position:absolute;
 	background:url(../img/home/verde.png) repeat-x;
 	width:100%;
@@ -35,14 +35,11 @@ body {
 	z-index: 99;
 	
 }
-.centro_menu{
+#centro_menu{
 	width:1000px;
 	padding-left:30px;
 	height: 49px;
 	margin:0px auto;
-}
-.centro_menu#servicios{
-	height:40px;
 }
 	.item_menu{
 		float:left;
@@ -54,18 +51,7 @@ body {
 		cursor:pointer;
 		color:#b3b38c;
 	}
-
-	.item_menu2{
-		float:left;
-		width:127px;
-		height:28px;
-		font-size:12px;
-		text-align:center;
-		padding-top:12px;	
-		cursor:pointer;
-		color:#b3b38c;
-	}
-	.item_menu a, .item_menu2 a{
+	.item_menu a{
 		color:#b3b38c;
 		text-decoration:none;
 	}
@@ -80,15 +66,6 @@ body {
 		z-index: 0;
 		background: url(../img/home/seleccion.png) bottom no-repeat;
 		margin-top: 35px;
-	}
-	.seleccion2{
-		width: 115px;
-		height: 14px;
-		position: absolute;
-		cursor: pointer;
-		z-index: 0;
-		background: url(../img/home/seleccion.png) bottom no-repeat;
-		margin-top: 27px;
 	}
 
 .cuerpo{
@@ -135,11 +112,11 @@ body {
 					float:left;
 				}
 				.email{
+					float: left;
 					color: #B3B38C;
-					font-size:15px;
-					margin-left:15px;
-					float:left;
-					margin-top: 55px;
+					margin-top: 58px;
+					margin-left: 15px;
+					font-size: 15px;
 				}
 		#footer_abajo{
 			float: left;

@@ -15,7 +15,7 @@
 							<tbody><tr>
 								<td style="font-family:&#39;Lucida Sans&#39;, Lucida, Arial; font-size:11px; line-height:12px; color:#000000; text-align:center;" bgcolor="#2790BE">
 									Contacto!<br>
-									Desde: el sitio web de MODDE
+									Desde: el sitio web | Zona Urbana 
 								</td>
 							</tr>
 						</tbody></table>
@@ -36,7 +36,7 @@
 										<tr>
 											<td style="font-family:&#39;Lucida Sans&#39;, Lucida, Arial; font-size:12px; line-height:20px; color:#333333; text-align:left;">
 												<div style="font-family:&#39;Lucida Sans&#39;, Lucida, Arial; font-size:16px; line-height:20px; color:#363636; font-weight:bold;">
-												La persona <b><?php echo$this->data['Contact']['nombre'] ?></b> te ha enviado un correo de consulta.
+												La persona <b><?php echo$this->data['Contacto']['nombre'] ?></b> te ha enviado un correo de consulta.
 												</div>
 												<div style="font-size:0; line-height:0; text-align:left;"><div style="font-size:0; line-height:0; height:5px"><img src="./Sample_files/empty.gif" width="1" height="5" style="height:5px" alt="">
 												</div>
@@ -45,11 +45,13 @@
 												</div>
 												</div>
 												<b>El mail: </b>
-												<a href="mailto:<?php echo $this->data['Contact']['email']; ?>" style="color:#00aeef; text-decoration:underline;"><?php echo $this->data['Contact']['email']; ?></a><br/><br/>
+												<a href="mailto:<?php echo $this->data['Contacto']['email']; ?>" style="color:#00aeef; text-decoration:underline;"><?php echo $this->data['Contacto']['email']; ?></a><br/><br/>
 												<b>Telefono: </b>
-												<?php echo $this->data['Contact']['telefono']; ?><br/><br/>
+												<?php echo $this->data['Contacto']['telefono']; ?><br/><br/>
+												<b>Asunto: </b>
+												<?php echo $this->data['Contacto']['asunto']; ?><br/><br/>
 												<b>Mensaje:</b>												
-												<?php echo $this->data['Contact']['mensaje']; ?><br/><br/><br/><br/>
+												<?php echo $this->data['Contacto']['mensaje']; ?><br/><br/><br/><br/>
 												<h5>Saludos</h5>												
 											</td>
 										</tr>

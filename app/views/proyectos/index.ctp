@@ -2,14 +2,16 @@
   echo $this->Html->css(array('proyectos'));
 ?>
 <script type="text/javascript">
-$('.seleccion').css('margin-left','127px');
-  $('.item_menu').mouseleave(function () {
-        $('.seleccion').animate({
-        marginLeft: "127px",
-      },250);
-  });
-  $('#mproyectos a').css('color','#fff');
-  $('#mproyectos').css('font-weight','bold');
+	$(document).ready(function() {
+		$('.seleccion').css('margin-left','127px');
+		$('.item_menu').mouseleave(function () {
+		      $('.seleccion').stop().animate({
+			    marginLeft: "127px",
+			  },250);
+		});
+		$('#mempresa a').css('color','#fff');
+		$('#mempresa').css('font-weight','bold');
+	});
 </script>
 <div id="proyectos">
 	<div class="cat">

@@ -23,34 +23,6 @@ $(document).ready(function() {
 		    marginLeft: "511px",
 		  },250);
 	});
-
-	/**
-	*	para servicios
-	*/
-	$('#mservicios').hover(function () {
-		  $('.seleccion2').stop();
-	      $('.seleccion2').animate({
-		    marginLeft: "7px",
-		  },250);
-	});
-	$('#mdesarrolladora').hover(function () {
-		  $('.seleccion2').stop();
-	      $('.seleccion2').animate({
-		    marginLeft: "134px",
-		  },250);
-	});
-	$('#mconstructora').hover(function () {
-		  $('.seleccion2').stop();
-	      $('.seleccion2').animate({
-		    marginLeft: "261px",
-		  },250);
-	});
-	$('#mareap').hover(function () {
-		  $('.seleccion2').stop();
-	      $('.seleccion2').animate({
-		    marginLeft: "387px",
-		  },250);
-	});
 	/*$('.item_menu').mouseleave(function () {
 		  $('.seleccion').stop();
 	      $('.seleccion').animate({
