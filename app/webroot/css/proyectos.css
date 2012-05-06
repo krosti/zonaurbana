@@ -1,0 +1,58 @@
+#proyectos{
+	width:1000px;
+	height:auto;
+	text-align:left;
+}
+.cat{
+	width:100%;
+	height:21px;
+	float:left;
+	background:#796f61;
+	padding-top:31px; 
+}
+	.cat img{
+		float:left;
+		margin-left:15px;
+	}
+	.cat p{
+		font-size:11px;
+		color:#fff;
+		float:left;
+		margin-top:0px;
+	}
+.proy{
+	width:100%;
+	height:125px;
+	float:left;
+	color:#fff;
+}
+.proytittle{
+	font-size:13px;
+	font-weight:bold;
+	float:left;
+	width:750px;
+	height:15px;
+	margin-top:15px;
+	margin-left:15px;
+}
+.proytext{
+	font-size:10px;
+	float:left;
+	width:750px;
+	height:65px;
+	margin-top:10px;
+	margin-left:15px;
+}
+.proy img{
+	float:left;
+}
+.dark{
+	background:#b3b38c;
+}
+.ligth{
+	background:#c7c7a6;
+}
+.dark a{
+	color:#fff;
+	text-decoration:none;
+}

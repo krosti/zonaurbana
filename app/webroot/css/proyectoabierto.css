@@ -1,0 +1,180 @@
+
+a{
+	color:#8A8C8B;
+}
+
+.body-projects{
+	font-family:Arial;
+	width:999px;
+	background-color:#796F61;
+	color: #fff;
+	font-size:14px;
+}
+
+.menu{
+	width:999px;
+	font-weight:bold;
+}
+
+.menu	span{
+	margin-left:8px;
+	vertical-align:4px;
+}
+
+.menu	.nav-projects{
+		width:999px;
+		overflow: hidden;
+		padding-top:20px;
+		padding-bottom:10px;
+}
+
+.nav-projects	#btn-proyecto-realizar{
+	float:left;
+	padding-left:20px;
+}
+
+.nav-projects	#btn-volver-listado{
+	float:right;
+	padding-right:75px;
+}
+.nav-projects a{
+	color:#fff;
+	text-decoration:none;
+}
+
+#btn-ficha-tecnica{
+	background-color:#9A9C70;
+}
+
+#btn-ficha-tecnica a{
+	color:#C3C5BA;
+}
+
+#btn-ubicacion{
+	background-color:#B3B38C;
+}
+
+#btn-imagenes{
+	background-color:#C7C7A6;
+}
+
+#nav-project-description ul{
+	  padding:0;
+  list-style:none;
+	margin: auto;
+	width:999px;
+}
+
+#nav-project-description .selected a{
+  color:#fff;
+}
+	 	
+#nav-project-description ul li{
+	float: left;
+  display: inline;
+}
+
+#nav-project-description  ul li a{
+ 	text-align:center;
+ 	width: 333px;
+	display: block;
+	line-height: 35px;
+	text-decoration: none;
+}
+  
+.details-departament{
+	background-color:#9A9C70;
+	padding-top:20px;
+}
+
+.details-departament	span{
+	padding-left:35px;
+	font-weight:bold;
+	color:black;
+}
+.details-departament a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.info-departament{
+	margin-top:10px;
+	width:999px;
+	text-align:center;
+	color:#F7F7F3;
+	font-family:Arial;
+	font-size:14px;
+	border-collapse: collapse;
+}
+
+.info-departament	th{
+	line-height:30px;
+}
+
+.info-departament	td{
+	min-width:30px;
+}
+
+.info-departament	tr{
+	line-height:30px;
+}
+
+.info-departament .table-body{
+	background-color:#B3B38C;
+}
+	
+.table-body .color-tr{
+	background-color:#C7C7A6;
+}
+	
+.info-departament	.info-left{
+	text-align: left;
+}
+
+.info-departament	.detalles-style{
+	padding-left:15px
+}
+	
+.container{
+	overflow: hidden;
+	width:999px;
+}
+	
+.section-tecnica .img-ficha-tecnica{
+	float:left;
+}
+
+.section-tecnica .descripcion-tecnica{
+	float:left;
+	width:580px;
+	padding:20px 65px;
+  font-size:12px;
+}
+	
+.section-map #contruccion-ubicacion{
+	width:999px;
+	height:540px;
+}
+	
+.section-imagenes{
+	width:999px;
+}
+	
+.section-imagenes .controls {
+	text-align:center;
+	padding:5px 0 5px 0;
+}
+	
+.section-imagenes .controls .prev-slide{
+	padding-right:40px;
+}
+	
+.section-imagenes .controls .next-slide{
+	padding-left:40px;
+}
+
+.slider    { overflow:hidden; position:relative; width:999px; }
+.slider ul { margin:0; padding:0; height:250px; }
+.slider li { float:left; margin:0 5px 0 0; list-style:none; }
+
+		
