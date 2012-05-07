@@ -14,8 +14,10 @@
 <div id="sections">
 	<div class="services">
 		<div id="about">
-			
-			<div class="text"><p>En <b>Zona Urbana S.A.</b> ofrecemos una gama de servicios
+			<div class="tittle">Sobre la empresa</div>
+			<div class="text"><p><b>Zona Urbana S.A.</b> es una empresa compuesta por diferentes <b>Unidades de Negocios</b> que pueden trabajar en forma integral o independiente, adaptándose a las necesidades de cada emprendimiento.</p>
+							  <p>Como empresa integral llevamos adelante cada Desarrollo desde su <b>gestación, proyecto, construcción, gerenciamiento y coordinación de la comercialización,</b> abarcando todos los aspectos que requiere cada etapa.</p>
+							  <p>Como empresa modular, prestamos nuestros servicios en las diversas áreas en forma independiente, como <b>Desarrolladora Inmobiliaria,</b> o como estudio de Arquitectura y Constructora. Esta organización nos permite trabajar en forma dinámica y flexible para atender en forma rápida y eficiente cada emprendimiento que llevamos adelante.</p>
 			</div>
 		</div>
 		<div id="verticalblock"></div>
@@ -199,7 +201,7 @@
 	$('.seleccion2').css('margin-left','7px');
 
 	$('.item_menu2').mouseleave(function () {
-	      $('.seleccion2').animate({
+	      $('.seleccion2').stop().animate({
 		    marginLeft: "7px",
 		  },250);
 	});

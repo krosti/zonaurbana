@@ -1,162 +1,167 @@
 #home{
-	background:#fff;
-	width:100%;
-	height:auto;
-	float:left;
-	color:#393637;
+    background:#fff;
+    width:100%;
+    height:auto;
+    float:left;
+    color:#393637;
 }
 #slider{
-	width:100%;
-	height:340px;
-	float:left;
-	background:#796f61;
+    width:100%;
+    height:340px;
+    float:left;
+    background:#796f61;
 }
 #about{
-	width:536px;
-	height:286px;
-	float:left;
+    width:536px;
+    height:286px;
+    float:left;
 }
 .tittle{
-	font-size:23px;
-	margin-top:32px;
-	margin-left:26px;
-	color:#9a9c70;
+    font-size:23px;
+    margin-top:32px;
+    margin-left:26px;
+    color:#9a9c70;
 }
 #about .text{
-	font-size:12px;
-	width:459px;
-	margin-left:26px;
-	line-height:15px;
-	margin-top:5px;
+    font-size:12px;
+    width:459px;
+    margin-left:26px;
+    line-height:15px;
+    margin-top:5px;
 }
 #verticalblock{
-	width:48px;
-	height:166px;
-	float:left;
-	background:#796f61;
-	margin-top:16px;
+    width:48px;
+    height:166px;
+    float:left;
+    background:#796f61;
+    margin-top:16px;
 }
 #history{
-	float:left;
-	width:352px;
-	height:166px;
-	margin-left:31px;
-	margin-top:1px;
+    float:left;
+    width:352px;
+    height:166px;
+    margin-left:31px;
+    margin-top:1px;
 }
 #history p{
-	font-size:11px;
-	margin-left:5px;
-	margin-top:18px;
+    font-size:11px;
+    margin-left:5px;
+    margin-top:18px;
 }
 #littleguys{
-	width:464px;
-	height:180px;
-	float:right;
-	background:url(../img/home/tipitos.png) right no-repeat;
+    width:464px;
+    height:180px;
+    float:right;
+    background:url(../img/home/tipitos.png) right no-repeat;
 }
 #guystittle{
-	margin-left:0px;
-	margin-top:26px;
-	width:300px;
-	font-size:18px;
-	color:#796f61;
+    margin-left:0px;
+    margin-top:26px;
+    width:300px;
+    font-size:18px;
+    color:#796f61;
 }
 #horizontalblock{
-	float:left;
-	width:650px;
-	height:70px;
-	margin-right:0px;
-	background:#796f61;
-	margin-top:-75px;
+    float:left;
+    width:650px;
+    height:70px;
+    margin-right:0px;
+    background:#796f61;
+    margin-top:-75px;
 }
 #myvdescription{
-	width:100%;
-	height:115px;
-	float:left;
+    width:100%;
+    height:115px;
+    float:left;
 }
 #myvdescription p{
-	margin-left:18px;
-	float:left;
-	width:310px;
-	height:66px;
-	line-height:13px;
+    margin-left:18px;
+    float:left;
+    width:310px;
+    height:66px;
+    line-height:13px;
 }
 #greenbar{
-	width:310px;;
-	height:10px;
-	background:#9a9c70;
-	float:left;
-	margin-left:18px;
+    width:310px;;
+    height:10px;
+    background:#9a9c70;
+    float:left;
+    margin-left:18px;
 }
 #greenbar2{
-	width:310px;;
-	height:10px;
-	background:#b3b38c;
-	float:left;
-	margin-left:18px;
+    width:310px;;
+    height:10px;
+    background:#b3b38c;
+    float:left;
+    margin-left:18px;
 }
 #greenbar3{
-	width:310px;;
-	height:10px;
-	background:#c7c7a6;
-	float:left;
-	margin-left:18px;
+    width:310px;;
+    height:10px;
+    background:#c7c7a6;
+    float:left;
+    margin-left:18px;
 }
 #grafics{
-	float:left;
-	height:316px;
-	width:887px;
-	background:url(../img/home/burbujas.png) no-repeat;
-	margin:0 auto;
-	margin-top:10px;
-	margin-left:57px;
+    float:left;
+    height:316px;
+    width:887px;
+    background:url(../img/home/burbujas.png) no-repeat;
+    margin:0 auto;
+    margin-top:10px;
+    margin-left:57px;
 }
 #grafics p{
-	font-size:14px;
-	color:#393637;
-	margin:0;
+    font-size:14px;
+    color:#393637;
+    margin:0;
 }
 .greentittle{
-	color:#03aa5b;
-	font-size:18px;
+    color:#03aa5b;
+    font-size:18px;
 }
 #grafictext{
-	width:318px;
-	height:108px;
-	float:left;
-	margin-left:9px;
+    width:318px;
+    height:108px;
+    float:left;
+    margin-left:9px;
 }
 #grafictext #sub{
-	font-size:13px;
-	margin-top:7px;
+    font-size:13px;
+    margin-top:7px;
 }
 #grafictext2{
-	float:left;
-	width:237px;
-	height:46px;
-	margin-left:317px;
-	margin-top:63px;
-	text-align:right;
+    float:left;
+    width:237px;
+    height:46px;
+    margin-left:317px;
+    margin-top:63px;
+    text-align:right;
 }
 #grafictext3{
-	float:left;
-	width:237px;
-	height:22px;
-	margin-left:14px;
-	margin-top:184px;
+    float:left;
+    width:237px;
+    height:22px;
+    margin-left:14px;
+    margin-top:184px;
 }
 #grafictext4{
-	text-align:right;
-	float:left;
-	width:316px;
-	height:44px;
-	margin-left:308px;
-	margin-top:165px;
+    text-align:right;
+    float:left;
+    width:316px;
+    height:44px;
+    margin-left:308px;
+    margin-top:165px;
 }
 #foot{
-	float:left;
-	width:1000px;
-	height:76px;
-	background:url(../img/home/foot.png) bottom no-repeat;
-	margin-bottom:-3px;
+    float:left;
+    width:1000px;
+    height:76px;
+    background:url(../img/home/foot.png) bottom no-repeat;
+    margin-bottom:-3px;
+}
+
+#sections{
+	background-color:#fff;
+	display: inline-block;
 }
