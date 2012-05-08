@@ -1,0 +1,38 @@
+.servicios{
+	float:left;
+	height:550px;
+}
+.menu2{
+	background:#796f61;
+	width:100%;
+	float:left;
+}
+.centro_menu2{
+	width:1000px;
+	padding-left:30px;
+	height: 49px;
+	margin:0px auto;
+}
+	.item_menu2{
+		float:left;
+		width:127px;
+		height:38px;
+		font-size:15px;
+		text-align:center;
+		padding-top:12px;	
+		cursor:pointer;
+		color:#b3b38c;
+	}
+	.item_menu2 a{
+		color:#b3b38c;
+		text-decoration:none;
+	}
+	.seleccion2{
+		width: 127px;
+		height: 16px;
+		position: absolute;
+		cursor: pointer;
+		z-index: 0;
+		background: url(../img/home/seleccion.png) bottom no-repeat;
+		margin-top: 35px;
+	}
