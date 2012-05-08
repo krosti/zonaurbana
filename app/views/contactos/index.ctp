@@ -1,31 +1,36 @@
+<?php 
+	echo $this->Html->css(array('contacto'));
+ ?>
+ <div class="barra">
+ 	<?php echo $html->image("default/triangulo-down.png"); ?>
+ 	<span>su consulta ser&aacute; respondida a la brevedad</span>
+ </div>
 <div id="contactofixed">
-	<div id="contactogeneral">
+	<div class="contactogeneral">
 	
 		<div id="contactoizq">
-			<?php echo $form->create('Contacto');?>	
+			<?php echo $form->create('Contact');?>	
 			<div class="inputizq">						
-						<?php echo $form->input('nombre'	,array('label'=>'nombre y apellido *','class'=>'inputext'));?>	
-						<?php echo $form->input('email'	,array('label'=>'mail *','class'=>'inputext'));?>	
-						<?php echo $form->input('telefono',array('label'=>'tel&eacute;fono','class'=>'inputext'));?>	
-						<?php echo $form->input('asunto'	,array('label'=>'Asunto','class'=>'inputext'));	?>	
-				
-			</div>
-			<div class='inputizq'>			
-				<?php echo $form->input('mensaje'	,array('class'=>'inputmensaje','label'=>'mensaje'));?>
+				<?php echo $form->input('nombre'	,array('label'=>'nombre y apellido *','class'=>'inputext'));?>	
+				<?php echo $form->input('ciudad'	,array('label'=>'ciudad','class'=>'inputext'));?>	
+				<?php echo $form->input('telefono',array('label'=>'tel&eacute;fono','class'=>'inputext'));?>	
+				<?php echo $form->input('email'	,array('label'=>'mail *','class'=>'inputext'));?>	
 				<div class = 'required'>* campos obligatorios</div>
-				<?php echo $form->end(array ('class'=>'enviar', 'label'  => '' ));?>	
+			</div>
+
+			<div class='inputder'>			
+				<?php echo $form->input('mensaje'	,array('class'=>'inputmensaje','label'=>'consulta',"type"=>"textarea"));?>
+				<?php echo $html->image("default/triangulo.png"); ?>
+				<?php echo $form->button('enviar');?>	
 			</div>
 		</div>
 		
 		<div id="contactoder">
 			<div class='texto1'>
-				<?php echo $html->image("default/modde.png"); ?>
-			</div>
-			<div class = 'infocontact'>
-				Zelarrayan 354 - local 3 - Bahia Blanca<br/><br/>(0291) 456-3555<br/>Consultas:<br/>info@modde.com.ar<br/>ventas@modde.com.ar<br/>
+				<?php echo $html->image("default/mapa.png"); ?>
 			</div>
 		</div>		
-		<?php echo $session->flash(); ?>
+		
 	</div>
 </div>
 <script type="text/javascript">

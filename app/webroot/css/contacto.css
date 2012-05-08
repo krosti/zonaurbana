@@ -1,0 +1,75 @@
+.barra{
+	background: #796F61;
+	color: white;
+	padding-top: 22px;
+	display: inline-block;
+	width: 100%;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.barra span{
+	margin-left: 40px;
+}
+.contactogeneral{
+	background-color: #B3B38C;
+}
+.inputizq input, .inputder textarea{
+	border-radius:20px;
+	background-color: white;
+	color:#796F61;
+	border:none;
+	width:300px;
+	display:inline-block;
+	padding:5px;
+}
+.contactogeneral textarea{
+	height: 190px;
+	margin-top: 4px;
+	width: 315px;
+ }
+.inputizq{
+	width:300px;
+	display:inline-block;
+	margin:40px;
+	margin-top:25px;
+ }
+.inputder{
+	width: 333px;
+	display: inline-block;
+	margin-top: 4px;
+	padding: 20px;
+	position: absolute;
+}
+
+.required{
+	font-size: 22px;
+	font: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-variant: small-caps;
+	float: left;
+	color:white;
+	margin-top:10px;
+}
+
+.input{
+	display: inline-block;
+	color:white;
+	font-size: 24px;
+	font: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+button{
+	border:none;
+	background: none;
+	font-size: 22px;
+	font: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-variant: small-caps;
+	float: right;
+	color:white;
+}
+
+#contactoder{
+	display: inline-block;
+}
